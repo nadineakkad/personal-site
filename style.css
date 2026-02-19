@@ -46,11 +46,16 @@ canvas {
 
 .keyboard {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 0.5rem;
-  max-width: 500px;
   margin: 0 auto;
+}
+
+.kb-row {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
 .key {

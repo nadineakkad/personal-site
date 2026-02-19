@@ -133,16 +133,22 @@ function disableAll() {
 function buildKeyboard() {
   var kb = document.getElementById("keyboard");
   kb.innerHTML = "";
-  var letters = "abcdefghijklmnopqrstuvwxyz";
-  for (var i = 0; i < letters.length; i++) {
-    var btn = document.createElement("button");
-    btn.className = "key";
-    btn.textContent = letters[i];
-    btn.setAttribute("data-letter", letters[i]);
-    btn.addEventListener("click", (function(l) {
-      return function() { guess(l); };
-    })(letters[i]));
-    kb.appendChild(btn);
+  var rows = ["qwertyuiop", "asdfghjkl", "zxcvbnm"];
+  for (var r = 0; r < rows.length; r++) {
+    var row = document.createElement("div");
+    row.className = "kb-row";
+    for (var i = 0; i < rows[r].length; i++) {
+      var letter = rows[r][i];
+      var btn = document.createElement("button");
+      btn.className = "key";
+      btn.textContent = letter;
+      btn.setAttribute("data-letter", letter);
+      btn.addEventListener("click", (function(l) {
+        return function() { guess(l); };
+      })(letter));
+      row.appendChild(btn);
+    }
+    kb.appendChild(row);
   }
 }
 
