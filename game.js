@@ -7,7 +7,7 @@ var words = [
   "saffron", "jasmine", "henna", "aleppo", "sidon",
   "byblos", "petra", "pharaoh", "manouche", "knafeh",
   "tabbouleh", "labneh", "sumac", "tahini", "halloumi",
-  "mezze", "nargileh", "keffiyeh", "temple", "citadel"
+  "mezze", "keffiyeh", "temple", "citadel"
 ];
 
 var word = "";
