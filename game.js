@@ -1,20 +1,4 @@
-var words = [
-  "javascript", "hangman", "coding", "website", "browser",
-  "keyboard", "galaxy", "python", "robot", "pixel",
-  "matrix", "hacker", "binary", "crypto", "dragon",
-  "wizard", "arcade", "zombie", "ninja", "laser",
-  "phantom", "thunder", "volcano", "eclipse", "nebula",
-  "quantum", "circuit", "chrome", "glitch", "vertex",
-  "plasma", "photon", "cipher", "prism", "vortex",
-  "anchor", "blizzard", "compass", "dagger", "enigma",
-  "falcon", "gravity", "horizon", "inferno", "jungle",
-  "lantern", "mammoth", "octopus", "panther", "riddle",
-  "shadow", "tornado", "unicorn", "velvet", "whisper",
-  "abstract", "buffalo", "chimera", "dungeon", "furnace",
-  "gargoyle", "iceberg", "jukebox", "ketchup", "labyrinth",
-  "mustang", "origami", "paradox", "quicksand", "saffron",
-  "tangent", "umbrella", "vagrant", "wraith", "zeppelin"
-];
+var words = ["jobs"];
 
 var word = "";
 var guessed = [];
