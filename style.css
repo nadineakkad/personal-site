@@ -4,13 +4,49 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #1a0a2e;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.wall {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem 2rem;
+  padding: 3rem 2rem;
   min-height: 100vh;
 }
 
-p {
-  font-family: 'Courier Prime', monospace;
-  font-size: 2rem;
-  color: #333;
-  padding: 2rem;
+.n {
+  display: inline-block;
+  line-height: 1.2;
 }
+
+/* Different fonts, colors, sizes, and rotations */
+.n1  { font-family: 'Press Start 2P', cursive; font-size: 1.4rem; color: #ff6ec7; transform: rotate(-5deg); }
+.n2  { font-family: 'Bungee Shade', cursive; font-size: 3rem; color: #ffdd00; }
+.n3  { font-family: 'Sacramento', cursive; font-size: 4rem; color: #00ffcc; transform: rotate(3deg); }
+.n4  { font-family: 'VT323', monospace; font-size: 3.5rem; color: #ff4444; letter-spacing: 0.3em; }
+.n5  { font-family: 'Playfair Display', serif; font-style: italic; font-size: 2.5rem; color: #ff9f43; transform: rotate(-8deg); }
+.n6  { font-family: 'Silkscreen', cursive; font-size: 1.2rem; color: #a29bfe; }
+.n7  { font-family: 'Rubik Mono One', sans-serif; font-size: 2rem; color: #fd79a8; transform: rotate(6deg); }
+.n8  { font-family: 'Courier Prime', monospace; font-size: 2.8rem; color: #55efc4; transform: rotate(-3deg); }
+.n9  { font-family: 'Press Start 2P', cursive; font-size: 2rem; color: #fdcb6e; transform: rotate(4deg); }
+.n10 { font-family: 'Sacramento', cursive; font-size: 5rem; color: #e056fd; }
+.n11 { font-family: 'Bungee Shade', cursive; font-size: 2rem; color: #00cec9; transform: rotate(-6deg); }
+.n12 { font-family: 'VT323', monospace; font-size: 4rem; color: #ff6b6b; transform: rotate(2deg); }
+.n13 { font-family: 'Playfair Display', serif; font-size: 3rem; color: #ffeaa7; transform: rotate(-4deg); }
+.n14 { font-family: 'Silkscreen', cursive; font-size: 1.8rem; color: #74b9ff; transform: rotate(7deg); }
+.n15 { font-family: 'Rubik Mono One', sans-serif; font-size: 1.5rem; color: #ff6ec7; transform: rotate(-2deg); }
+.n16 { font-family: 'Courier Prime', monospace; font-size: 2rem; color: #00ffcc; transform: rotate(5deg); }
+.n17 { font-family: 'Press Start 2P', cursive; font-size: 1rem; color: #ff9ff3; transform: rotate(-7deg); }
+.n18 { font-family: 'Sacramento', cursive; font-size: 3.5rem; color: #ffdd00; transform: rotate(3deg); }
+.n19 { font-family: 'Bungee Shade', cursive; font-size: 2.5rem; color: #ff4444; }
+.n20 { font-family: 'VT323', monospace; font-size: 3rem; color: #a29bfe; transform: rotate(-5deg); }
+.n21 { font-family: 'Playfair Display', serif; font-style: italic; font-size: 3.5rem; color: #55efc4; transform: rotate(4deg); }
+.n22 { font-family: 'Rubik Mono One', sans-serif; font-size: 2.5rem; color: #fd79a8; transform: rotate(-3deg); }
+.n23 { font-family: 'Silkscreen', cursive; font-size: 1.5rem; color: #fdcb6e; transform: rotate(6deg); }
+.n24 { font-family: 'Courier Prime', monospace; font-size: 3rem; color: #e056fd; transform: rotate(-4deg); }
+.n25 { font-family: 'Press Start 2P', cursive; font-size: 1.8rem; color: #00cec9; transform: rotate(2deg); }
