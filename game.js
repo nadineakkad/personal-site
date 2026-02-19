@@ -113,12 +113,12 @@ function guess(letter) {
     wrong++;
     drawHangman();
     if (wrong >= maxWrong) {
-      document.getElementById("message").textContent = 'GAME OVER! It was "' + word + '"';
-      document.getElementById("message").style.color = "#ff4444";
       gameOver = true;
-      document.getElementById("restart").style.display = "inline-block";
       updateWord();
       disableAll();
+      setTimeout(function() {
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+      }, 800);
     }
   }
 }
