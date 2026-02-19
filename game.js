@@ -129,7 +129,7 @@ function guess(letter) {
       updateWord();
       disableAll();
       setTimeout(function() {
-        document.body.innerHTML = '<div style="position:fixed;top:0;left:0;width:100%;height:100%;background:#000;z-index:9999;display:flex;align-items:center;justify-content:center;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&loop=1&playlist=dQw4w9WgXcQ" frameborder="0" allow="autoplay" allowfullscreen></iframe></div>';
+        document.body.innerHTML = '<div style="position:fixed;top:0;left:0;width:100%;height:100%;background:#000;z-index:9999;display:flex;align-items:center;justify-content:center;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&loop=1&playlist=dQw4w9WgXcQ" frameborder="0" allow="autoplay" allowfullscreen></iframe><button onclick="location.reload()" style="position:absolute;top:20px;right:20px;background:transparent;border:2px solid #fff;color:#fff;font-family:VT323,monospace;font-size:1.4rem;padding:0.5rem 1rem;cursor:pointer;border-radius:6px;z-index:10000;">X</button></div>';
       }, 800);
     }
   }
