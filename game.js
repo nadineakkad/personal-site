@@ -1,4 +1,14 @@
-var words = ["jobs"];
+var words = [
+  "beirut", "damascus", "cairo", "jerusalem", "hummus",
+  "falafel", "tabouleh", "cedar", "pyramids", "sphinx",
+  "baklava", "zaatar", "arak", "dabke", "oud",
+  "shawarma", "kibbeh", "fattoush", "nile", "olive",
+  "hookah", "bazaar", "souk", "minaret", "mosaic",
+  "saffron", "jasmine", "henna", "aleppo", "sidon",
+  "byblos", "petra", "pharaoh", "manouche", "knafeh",
+  "tabbouleh", "labneh", "sumac", "tahini", "halloumi",
+  "mezze", "nargileh", "keffiyeh", "temple", "citadel"
+];
 
 var word = "";
 var guessed = [];
