@@ -7,42 +7,17 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="wall">
-    <span class="n n1">nadine</span>
-    <span class="n n2">NADINE</span>
-    <span class="n n3">nadine</span>
-    <span class="n n4">NADINE</span>
-    <span class="n n5">nadine</span>
-    <span class="n n6">NADINE</span>
-    <span class="n n7">nadine</span>
-    <span class="n n8">nadine</span>
-    <span class="n n9">NADINE</span>
-    <span class="n n10">nadine</span>
-    <span class="n n11">NADINE</span>
-    <span class="n n12">nadine</span>
-    <span class="n n13">nadine</span>
-    <span class="n n14">NADINE</span>
-    <span class="n n15">nadine</span>
-    <span class="n n16">NADINE</span>
-    <span class="n n17">nadine</span>
-    <span class="n n18">nadine</span>
-    <span class="n n19">NADINE</span>
-    <span class="n n20">nadine</span>
-    <span class="n n21">NADINE</span>
-    <span class="n n22">nadine</span>
-    <span class="n n23">nadine</span>
-    <span class="n n24">NADINE</span>
-    <span class="n n25">nadine</span>
+  <div class="game">
+    <h1>HANGMAN</h1>
+    <canvas id="hangman" width="200" height="220"></canvas>
+    <div id="word" class="word"></div>
+    <div id="message" class="message"></div>
+    <div id="keyboard" class="keyboard"></div>
+    <button id="restart" class="restart" style="display:none;">NEW GAME</button>
   </div>
+  <script src="game.js"></script>
 </body>
 </html>
