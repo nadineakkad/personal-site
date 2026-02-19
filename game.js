@@ -117,7 +117,7 @@ function guess(letter) {
       updateWord();
       disableAll();
       setTimeout(function() {
-        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        document.body.innerHTML = '<div style="position:fixed;top:0;left:0;width:100%;height:100%;background:#000;z-index:9999;display:flex;align-items:center;justify-content:center;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&loop=1&playlist=dQw4w9WgXcQ" frameborder="0" allow="autoplay" allowfullscreen></iframe></div>';
       }, 800);
     }
   }
