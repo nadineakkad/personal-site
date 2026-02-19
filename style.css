@@ -110,3 +110,41 @@ canvas {
   background: #ffdd00;
   color: #1a0a2e;
 }
+
+@media (max-width: 480px) {
+  .game {
+    padding: 1rem 0.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  canvas {
+    width: 150px;
+    height: 165px;
+    margin-bottom: 1rem;
+  }
+
+  .word {
+    font-size: 1.6rem;
+    letter-spacing: 0.3em;
+    margin-bottom: 1rem;
+  }
+
+  .message {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .kb-row {
+    gap: 0.3rem;
+  }
+
+  .key {
+    width: 30px;
+    height: 36px;
+    font-size: 1.1rem;
+  }
+}
