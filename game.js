@@ -7,7 +7,7 @@ var words = [
   "saffron", "jasmine", "henna", "aleppo", "sidon",
   "byblos", "petra", "pharaoh", "manouche", "knafeh",
   "tabbouleh", "labneh", "sumac", "tahini", "halloumi",
-  "mezze", "keffiyeh", "temple", "citadel"
+  "mezze", "keffiyeh", "temple", "citadel", "deez nuts"
 ];
 
 var word = "";
@@ -91,7 +91,9 @@ function drawHangman() {
 function updateWord() {
   var display = "";
   for (var i = 0; i < word.length; i++) {
-    if (guessed.indexOf(word[i]) !== -1) {
+    if (word[i] === " ") {
+      display += "  ";
+    } else if (guessed.indexOf(word[i]) !== -1) {
       display += word[i];
     } else {
       display += "_";
